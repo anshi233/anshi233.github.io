@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# Lab-in-a-Pack Capstone Wiki
 
 
 <!--
@@ -21,6 +21,9 @@
 
 [About](pages/about.md)
 [Download](pages/download.md)
+[Hardware](pages/hardware_index.md)
+[Firmware](pages/firmware_index.md)
+[Software](pages/software_index.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
