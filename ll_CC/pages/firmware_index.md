@@ -2,6 +2,6 @@
 
 ## List of Pages
 
-[Introduction](pages/firmware/introduction.md)
-[MCU info&connection](pages/firmware/MCU_info_con.md)
-[File structure](pages/firmwaare/file_struct.md)
+[Introduction](firmware/introduction.md)
+[MCU info&connection](firmware/MCU_info_con.md)
+[File structure](firmware/file_struct.md)
