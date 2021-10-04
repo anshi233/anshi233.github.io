@@ -17,20 +17,20 @@ Here, "device" means hardware device such as ADC, DAC, PSU, AFE, .etc
 
 In "main.c" system initialization be excuted. Also, this file contains following user-defined function
 
-* waveform generate related *:
+**waveform generate related**:
 * set_sine
 * set_triangle
 * set_sawtooth
 * set_square
 
-* device initialization related *:
+**device initialization related**:
 * LabInAPack_Start(it call following functions)
 * LabInAPack_ADC_Init
 * LabInAPack_DAC_Init
 * LabInAPack_Misc_Init (Initializes miscellaneous registers)
 * LabInAPack_Reset (Call setup functions to set initial values of devices)
 
-* device's registers value setup *:
+**device's registers value setup**:
 * LabInAPack_ADC_Frequency_Setup
 * LabInAPack_ADC_Trigger_Setup
 * LabInAPack_DAC_Setup
@@ -38,20 +38,20 @@ In "main.c" system initialization be excuted. Also, this file contains following
 * LabInAPack_AFE_Setup
 * LabInAPack_SPI_Setup
 
-* ADC's Data related *:
+**ADC's Data related**:
 * HAL_ADC_ConvHalfCpltCallback
 * HAL_ADC_ConvCpltCallback
 * HAL_ADC_LevelOutOfWindowCallback
 
-* MCU Timer Interrupt handler *:
+**MCU Timer Interrupt handler**:
 * HAL_TIM_PeriodElapsedCallback
 
 ### "usbd_csc_if.c"
 
 In this files, USB data transmit & receive realted logic is defined.
 
-* USB Transmit related *:
+**USB Transmit related**:
 * CDC_Transmit_HS (function to send data to host(computer). ex. sending ADC's DATA)
 
-* USB receive related *:
+**USB receive related**:
 * CDC_Receive_HS (function to receive data from host(computer). ex. receive instrctions from host(python code))
