@@ -19,8 +19,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[About](pages/about.md)
-[Download](pages/download.md)
+
 [Hardware](pages/hardware_index.md)
 [Firmware](pages/firmware_index.md)
 [Software](pages/software_index.md)
