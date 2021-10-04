@@ -1,6 +1,6 @@
 # Lab-in-a-Pack Capstone Wiki
 
-<span style="font-size:2em;">Wellcome to 2021 UBC Lab-in-a-Pack Capstone Wiki</span>
+<span style="font-size:2em;">Welcome to 2021 UBC Lab-in-a-Pack Capstone Wiki</span>
 
 * [Hardware](pages/hardware_index.md)
 * [Firmware](pages/firmware_index.md)
