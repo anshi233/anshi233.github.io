@@ -24,13 +24,12 @@ Following is the list of Opcode defined in the code.
 |0x48|Random Testing for ADC (not currently used)|
 |0x50|Enable_ADC_Logging|
 |0x51|Disable_ADC_Logging|
-|----|-------------------|
+
 
 ## USB RX Opcode (For Test)
 
------------------------------
 TBD
------------------------------
+
 
 ## USB TX Opcode
 
