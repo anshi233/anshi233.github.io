@@ -9,7 +9,7 @@ Following is the list of Opcode defined in the code.
 
 |Opcode|Usage|
 |------|-----|
-|0x00|Reversed|
+|0x00|Reserved|
 |0x01|Return status(looks like "Ping" the device) to Host|
 |0x10|Set PSU|
 |0x11|Disable PSU|
