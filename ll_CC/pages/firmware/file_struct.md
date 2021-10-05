@@ -24,13 +24,13 @@ In "main.c" system initialization be excuted. Also, this file contains following
  - set_square
 
 **device initialization related**:
- - LabInAPack_Start(it call following functions)
+ - LabInAPack_Start (it call following functions)
  - LabInAPack_ADC_Init
  - LabInAPack_DAC_Init
  - LabInAPack_Misc_Init (Initializes miscellaneous registers)
  - LabInAPack_Reset (Call setup functions to set initial values of devices)
 
-**device's registers value setup**:
+**device's registers value set**:
  - LabInAPack_ADC_Frequency_Setup
  - LabInAPack_ADC_Trigger_Setup
  - LabInAPack_DAC_Setup
@@ -48,10 +48,10 @@ In "main.c" system initialization be excuted. Also, this file contains following
 
 ### "usbd_csc_if.c"
 
-In this files, USB data transmit & receive realted logic is defined.
+In this files, USB data transmit & receive logic defined.
 
 **USB Transmit related**:
- - CDC_Transmit_HS (function to send data to host(computer). ex. sending ADC's DATA)
+ - CDC_Transmit_HS (function to send data to host(computer). ex. sending ADC's DATA to python code)
 
 **USB receive related**:
- - CDC_Receive_HS (function to receive data from host(computer). ex. receive instrctions from host(python code))
+ - CDC_Receive_HS (function to receive data from host(computer). ex. receive instructions from host(python code))
